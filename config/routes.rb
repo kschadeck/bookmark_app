@@ -1,4 +1,15 @@
 BookmarkApp::Application.routes.draw do
+  get "bookmarks/_form"
+
+  get "bookmarks/edit"
+
+  get "bookmarks/index"
+
+  get "bookmarks/new"
+
+  get "bookmarks/show"
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

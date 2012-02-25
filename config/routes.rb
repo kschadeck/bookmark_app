@@ -1,13 +1,15 @@
 BookmarkApp::Application.routes.draw do
-  get "bookmarks/_form"
+  resources :bookmarks
 
-  get "bookmarks/edit"
-
-  get "bookmarks/index"
-
-  get "bookmarks/new"
-
-  get "bookmarks/show"
+  #get "bookmarks/_form"
+  #
+  #get "bookmarks/edit"
+  #
+  #get "bookmarks/index"
+  #
+  #get "bookmarks/new"
+  #
+  #get "bookmarks/show"
 
 
   # The priority is based upon order of creation:
